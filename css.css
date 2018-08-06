@@ -1,5 +1,8 @@
 h1{color:black;
-font-size:50px;}
+font-size:50px;
+font-weight:bold;
+font-style:italic;
+text-align:centre;}
 
 h2{color:black;
 font-size:30px;}
@@ -11,3 +14,7 @@ font-size:20px;}
 a {color:gray;}
 ol {color:green;
 font-size:20px;}
+body {background-image:url(images/background.png);
+}
+p:first-letter{font-weight:bold;
+font-size:25px;}
