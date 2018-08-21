@@ -1,0 +1,47 @@
+
+
+
+body {background-image:url(images/mcu.jpg);
+background-repeat:no-repeat;
+    background-size:cover;
+	background-attachment: fixed;
+}
+h1{text-align:center;}
+
+#main{
+	position:absolute;
+	left:600px;
+}
+#p1{
+	display:block;
+	-webkit-transition:-webkit-transform 500ms;
+		width:364px;
+	  height:205px;
+}
+
+#p1:hover{
+	-webkit-transform:scale(1.5);
+}
+}
+#p2{
+	display:block;
+	-webkit-transition:-webkit-transform 500ms;
+		width:364px;
+	  height:205px;
+	  
+}
+
+#p2:hover{
+	-webkit-transform:scale(1.5);
+}
+
+#p3{
+	display:block;
+	-webkit-transition:-webkit-transform 500ms;
+		width:364px;
+	  height:205px;
+}
+
+#p3:hover{
+	-webkit-transform:scale(1.5);
+}
