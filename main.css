@@ -3,14 +3,11 @@ background-repeat:no-repeat;
     background-size:cover;
 
 	height:100%;
-	width:100%;
-	
 }
 h1{text-align:center;}
 
 #main{
 	position:absolute;
-    
     left: 50%
 }
 #p1{
