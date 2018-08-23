@@ -7,7 +7,8 @@ h1{text-align:center;}
 
 #main{
 	position:absolute;
-	left:600px;
+    
+    left: 50%
 }
 #p1{
 	display:block;
