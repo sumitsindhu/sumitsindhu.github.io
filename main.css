@@ -1,14 +1,12 @@
-body {background-image:url(images/mcu.jpg);
-background-repeat:no-repeat;
-    background-size:cover;
+body {background-color:#990033;
 
-	height:device-height;
 }
 h1{text-align:center;}
 
 #main{
 	position:absolute;
-    left: 50%
+    left: 40%;
+	
 }
 #p1{
 	display:block;
