@@ -1,13 +1,12 @@
-#mainbody{
+body{
 	background-image:url('phase1/backgroundp1.gif');
-	    background-size:100%;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    height:100%;
-    width:100%; 
+	background-size:100%;
+
 }
 h1{
-text-align:center;}
+  text-align:center;}
+  
+  
 * {
     box-sizing: border-box;
 }
@@ -23,20 +22,4 @@ text-align:center;}
 }
 #p1:hover{
 -webkit-transform: scale(1.5);
-}
-#mainbody p1:hover{
-	background-image:url('phase1/im1.jpg');
-}
-#main1 {
-    display: flex;
-	
-}
-#p2{
-    flex: 33.33%;
-    margin: 55px;
-	-webkit-transition:-webkit-transform 500ms;
-}
-#p2:hover{
-	-webkit-transform:scale(1.5);
-	
 }
