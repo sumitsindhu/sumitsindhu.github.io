@@ -1,12 +1,15 @@
 body {background-color:#990033;
-
+width:device-width;
+	height:device-height;
 }
-h1{text-align:center;}
+h1{
+text-align:center;}
 
 #main{
-	position:absolute;
+	position:fixed;
     left: 40%;
-	
+    width:device-width;
+	height:device-height;
 }
 #p1{
 	display:block;
