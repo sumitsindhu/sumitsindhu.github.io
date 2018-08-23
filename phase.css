@@ -1,7 +1,8 @@
 #mainbody{
-	background-image:url('phase1/backgroundp1.gif');
+	background-image:url('phase1/backgroundp1.gif') no-repeat;
 	background-size:cover;
-
+width:100%;
+    height:100%;
 }
 h1{
 text-align:center;}

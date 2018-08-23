@@ -9,8 +9,6 @@ text-align:center;}
 #main{
 	position:absolute;
     left: 40%;
-    width:device-width;
-	height:device-height;
 }
 #p1{
 	display:block;
