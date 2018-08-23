@@ -7,7 +7,7 @@ h1{
 text-align:center;}
 
 #main{
-	position:fixed;
+	position:absolute;
     left: 40%;
     width:device-width;
 	height:device-height;
