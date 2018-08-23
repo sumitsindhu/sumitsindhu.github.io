@@ -11,12 +11,10 @@ h1{text-align:center;}
 }
 #p1{
 	display:block;
-	width:364px;
-	  height:205px;
+
 	  -webkit-transition:-webkit-transform 500ms;
 }
 
 #p1:hover{
 -webkit-transform: scale(1.5);
-
 }
