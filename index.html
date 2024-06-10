@@ -1,24 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="main.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="javascript.js"></script>
-<title>MCU</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Backend Developer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-<h1>MARVAL CINEMATIC UNIVERSE</h1>
-<div id="main">
-<a id="p1" href="phase1.html"><img src="images/mcup1.jpg" height="205px" width="364px" /><br /></a>
-<a id="p1" href="phase2.html"><img src="images/mcup2.jpg" height="205px" width="364px" /><br /></a>
-<a id="p1" href="phase3.html"><img src="images/mcup3.jpg" height="205px" width="364px" /></a>
-<h1><a href="indexB.html">Basic Version</a></div></h1>
+    <header>
+        <h1>Sumit Backend Developer Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#project1">Healthcare Staffing Management System</a></li>
+                <li><a href="#project2">Inventory and User Management for a Steel Company</a></li>
+                <li><a href="https://github.com/sumitsindhu">Github</a></li>
 
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="project1">
+        <h2>Project Title: Healthcare Staffing Management System</h2>
+        <h3>Overview:</h3>
+        <p>Our project involved the development of a comprehensive backend system for a prominent healthcare organization. The system aimed to optimize staffing operations by enabling efficient management of shifts, providers (healthcare professionals), payroll, invoices, and timecards. Additionally, we designed and implemented two distinct web applications tailored to different user roles within the organization, along with a mobile app for providers.</p>
+        <h3>Role: Backend Developer</h3>
+        <h3>Technologies Used:</h3>
+        <ul>
+            <li>Programming Languages: JavaScript (Node.js)</li>
+            <li>Frameworks/Libraries: Express.js</li>
+            <li>ORM: Sequelize.js</li>
+            <li>Database: PostgreSQL</li>
+            <li>Tools: Git</li>
+        </ul>
+        <h3>Description:</h3>
+        <p>As a backend developer on this project, my role was crucial in implementing the backend infrastructure to support the healthcare organization's staffing operations and facilitate seamless communication between various components. Here's an overview of the key functionalities and components of the system:
+        <ul>
+            <li>Shift Management: The backend system includes robust shift management capabilities, allowing administrators to create, edit, and assign shifts for hospitals. This involves defining shift schedules, durations, and locations.</li>
+            <li>Provider Management: The system provides comprehensive provider management functionalities, enabling administrators to assign healthcare professionals (such as LVNs, RNs) to shifts. This includes managing provider profiles, credentials, and availability.</li>
+            <li>Payroll Management: Administrators have access to payroll management tools for providers, facilitating the calculation and processing of provider payments based on their shifts worked. This involves defining predefined rates for specific shifts and handling payroll-related documentation.</li>
+            <li>Invoice Management: The system includes features for managing invoices generated for hospitals based on the shifts and providers assigned. Administrators can track invoice statuses, send reminders for overdue payments, and generate reports for financial analysis.</li>
+            <li>Hospital Web Application: We developed a web application for hospitals to manage their shift schedules, create new shifts, and view assigned providers. This application provides a user-friendly interface for hospital staff to coordinate staffing needs efficiently.</li>
+            <li>Provider Mobile App: In addition to the web applications, we designed and implemented a mobile application for providers. Providers can use this app to bid on available shifts, submit timecard entries, and manage their availability preferences. The backend facilitates real-time communication between the mobile app and the central database, ensuring accurate tracking of provider activities.</li>
+        </ul>
+        Throughout the development process, we prioritized scalability, security, and reliability to ensure the system could meet the healthcare organization's dynamic staffing requirements and handle sensitive patient data securely. By leveraging JavaScript technologies such as Node.js, Express.js, and Sequelize ORM, we delivered a robust and user-friendly solution that empowers the healthcare organization to optimize its staffing operations and improve patient care.</p>
+        <h3>Lessons Learned:</h3>
+        <p>This project taught me valuable lessons in scalability, performance optimization, and collaboration in building mission-critical backend systems for the healthcare sector. I gained insights into designing and implementing scalable RESTful APIs, optimizing database performance for large datasets, and collaborating effectively with cross-functional teams to deliver impactful solutions.</p>
+    </section>
+    
+
+    <section id="project2">
+        <h2>Project Title: Inventory and User Management for a Steel Company</h2>
+        <h3>Overview:</h3>
+        <p>Our project involved the development of a comprehensive backend system for a leading steel manufacturing company. The system aimed to streamline operations by enabling efficient management of inventory, user accounts, and process tracking. Additionally, we designed and implemented two distinct mobile applications tailored to different user roles within the organization.</p>
+        <h3>Role: Backend Developer</h3>
+        <h3>Technologies Used:</h3>
+        <ul>
+            <li>Programming Languages: Python, SQL</li>
+            <li>Frameworks: Django, Django ORM</li>
+            <li>Database: MySQL</li>
+            <li>Tools: Git</li>
+        </ul>
+        <h3>Description:</h3>
+        <p>As a backend developer on this project, my role was pivotal in implementing the backend infrastructure to support the company's operations and facilitate seamless communication between various components. Here's an overview of the key functionalities and components of the system:
+        <ul>
+            <li>Inventory Management: The backend system includes robust inventory management capabilities, allowing administrators to track and print barcodes for the company's inventory of raw materials and related products.</li>
+            <li>User Management: The system provides comprehensive user management functionalities, empowering administrators to create, modify, and deactivate user accounts as needed. This includes assigning roles and permissions to users based on their responsibilities within the organization.</li>
+            <li>Worker Mobile App: We developed a dedicated mobile application for workers on the factory floor to streamline their daily tasks. This app allows workers to log in, start their assigned processes, record their work activities, take breaks when necessary, and view their profiles. The backend supports real-time communication with the mobile app, ensuring accurate tracking of worker activities and process statuses.</li>
+            <li>Supervisor Mobile App: In addition to the worker app, we designed and implemented a separate mobile application for supervisors to oversee and manage worker activities. Supervisors can use this app to approve or reject worker time entries, view the processes performed by each worker, monitor their work hours, and access relevant performance metrics. The backend facilitates seamless data synchronization between the supervisor app and the central database, ensuring supervisors have access to up-to-date information at all times.</li>
+        </ul>
+        Throughout the development process, we prioritized scalability, security, and reliability to ensure the system could accommodate the company's evolving needs and handle large volumes of data securely. By leveraging cutting-edge technologies and best practices in backend development, we delivered a robust and user-friendly solution that empowers the steel manufacturing company to optimize their operations and drive productivity gains.</p>
+        <h3>Lessons Learned:</h3>
+        <p>This project taught me the importance of scalability, performance optimization, and collaboration in building robust backend systems. I gained valuable experience in designing and implementing scalable RESTful APIs, optimizing database performance, and working effectively in a cross-functional team environment.</p>
+    </section>
+    
+
+    <!-- <footer>
+        <p>&copy; 2024 Backend Developer Portfolio</p>
+    </footer> -->
 </body>
 </html>
